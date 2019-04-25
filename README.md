@@ -18,6 +18,17 @@ $ pip3 instal pyfiglet
 $ python3.7 ~/Downloads/simple-shell-clock/main.py
 ```
 
+### Customisation
+
+The variables at the start of the script can all be changed to modify the look and feel of the clock.
+
+| Variable | Default | Description | Useful Link(s) |
+| --- | --- | --- | --- |
+| font_name | `'3x5'` | Changes the Figlet font which is rendered | [Figlet Font DB](http://www.figlet.org/fontdb.cgi) |
+| padding | `[0, 0, 0, 0]` | Applies padding to the top/right/bottom/left of the text | |
+| custom_char_replace | `{'#': '\u2588'}` | Used to replace character(s) with another character(s) | [Unicode Character Table](https://unicode-table.com) |
+| time_format | `'%H:%M:%S'` | Set the format of the time to be displayed | [Time Formatting Parameters](http://strftime.org/) |
+
 ## Planned Features
 
 - Font customisation (figlet).
