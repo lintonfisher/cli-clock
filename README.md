@@ -6,7 +6,7 @@ The Simple Shell Clock is intended to be a simple and reliable digital clock for
 
 ## Usage
 
-```
+```bash
 $ python3.7 ~/Downloads/simple-shell-clock/main.py
 ```
 
