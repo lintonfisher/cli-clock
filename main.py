@@ -15,6 +15,6 @@ while True:
     figlet = figlet_format(time_string, font='3x5')
     replace_with_char = figlet.replace('#', "\u2588")
 
-    print(u'' + replace_with_char)
+    print(replace_with_char)
 
     time.sleep(1)
