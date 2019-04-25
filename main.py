@@ -8,18 +8,9 @@ except ImportError:
     print('Error, module pyfiglet is required. Run: pip3 install pyfiglet')
 
 # VARIABLES
-
-# Padding
-top_padding_amount      = 0
-right_padding_amount    = 0
-bottom_padding_amount   = 0
-left_padding_amount     = 0
-
-# Font
-font_name = '3x5' # (for list of fonts see: http://www.figlet.org/fontdb.cgi)
-custom_char_replace = {'#': '\u2588'} # Specify characters to replace (for unicode characters see: https://unicode-table.com)
-
-# Time (for formatting options see: http://strftime.org/)
+padding = [0, 0, 0, 0]
+font_name = '3x5'
+custom_char_replace = {'#': '\u2588'}
 time_format = '%H:%M:%S'
 
 while True:
