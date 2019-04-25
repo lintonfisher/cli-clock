@@ -2,7 +2,10 @@ import datetime
 import os
 import time
 
-from pyfiglet import figlet_format
+try:
+    from pyfiglet import figlet_format
+except ImportError:
+    print('Error, module pyfiglet is required. Run: pip install pyfiglet')
 
 # VARIABLES
 
