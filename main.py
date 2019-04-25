@@ -14,7 +14,7 @@ left_padding_amount     = 0
 
 # Font
 font_name = '3x5' # (for list of fonts see: http://www.figlet.org/fontdb.cgi)
-custom_char_replace = {'#': '\u2588'} # Specify characters to replace
+custom_char_replace = {'#': '\u2588'} # Specify characters to replace (for unicode characters see: https://unicode-table.com)
 
 # Time (for formatting options see: http://strftime.org/)
 time_format = '%H:%M:%S'
