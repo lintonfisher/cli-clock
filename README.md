@@ -22,14 +22,20 @@ $ python3.7 ~/Downloads/simple-shell-clock/main.py
 
 The variables at the start of the script can all be changed to modify the look and feel of the clock.
 
-| Variable | Default | Description | Useful Link(s) |
-| --- | --- | --- | --- |
-| font_name | ```python
-'3x5'
-``` | Changes the Figlet font which is rendered | [Figlet Font DB](http://www.figlet.org/fontdb.cgi) |
-| padding | `[0, 0, 0, 0]` | Applies padding to the top/right/bottom/left of the text | |
-| custom_char_replace | `{'#': '\u2588'}` | Used to replace character(s) with another character(s) | [Unicode Character Table](https://unicode-table.com) |
-| time_format | `'%H:%M:%S'` | Set the format of the time to be displayed | [Time Formatting Parameters](http://strftime.org/) |
+| Variable            | Default         | Description                                              | Useful Link(s)                                       |
+| ------------------- | --------------- | -------------------------------------------------------- | ---------------------------------------------------- |
+| font_name           | ```python       | Changes the Figlet font which is rendered                | [Figlet Font DB](http://www.figlet.org/fontdb.cgi)   |
+|                     | '3x5'           |                                                          |                                                      |
+|                     | ```             |                                                          |                                                      |
+| padding             | ```python       | Applies padding to the top/right/bottom/left of the text |                                                      |
+|                     | [0, 0, 0, 0]    |                                                          |                                                      |
+|                     | ```             |                                                          |                                                      |
+| custom_char_replace | ```python       | Used to replace character(s) with another character(s)   | [Unicode Character Table](https://unicode-table.com) |
+|                     | {'#': '\u2588'} |                                                          |                                                      |
+|                     | ```             |                                                          |                                                      |
+| time_format         | ```python       | Set the format of the time to be displayed               | [Time Formatting Parameters](http://strftime.org/)   |
+|                     | '%H:%M:%S'      |                                                          |                                                      |
+|                     | ```             |                                                          |                                                      |
 
 ## Planned Features
 
