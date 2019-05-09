@@ -9,15 +9,13 @@ The Simple Shell Clock is intended to be a simple and reliable digital clock for
 ### [PyFiglet](https://pypi.org/project/pyfiglet/)
 
 ```bash
-$ sudo pip install pyfiglet
+$ pip3 instal pyfiglet
 ```
 
 ## Usage
 
 ```bash
-$ cd Downloads
-$ unzip simple_shell_clock*.zip
-$ python3.* simple-shell-clock/main.py
+$ python3.7 ~/Downloads/simple-shell-clock/main.py
 ```
 
 ### Customisation
