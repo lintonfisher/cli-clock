@@ -29,13 +29,13 @@ while True:
 
     # Apply padding
     # Top padding
-    for i in padding[0]:
+    for i in range(padding[0]):
         print()
 
     # Right padding (useless until text alignment added)
     # Bottom padding (pretty much useless as well)
     # Left padding
-    for i in padding[3]:
+    for i in range(padding[3]):
         figlet_string.replace('\n', '\n ')
 
     # Print the string
