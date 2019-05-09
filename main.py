@@ -5,7 +5,7 @@ import time
 try:
     from pyfiglet import figlet_format
 except ImportError:
-    print('Error, module pyfiglet is required. Run: pip3 install pyfiglet')
+    print('Error, module pyfiglet is required. Run: sudo pip3 install pyfiglet')
 
 # VARIABLES
 padding             = [0, 0, 0, 0]
