@@ -19,13 +19,24 @@ while True:
 
     # Convert the current time to the defined format
     time_string = datetime.datetime.now().strftime(time_format)
- 
+
     # Turn the string into a figlet ASCII art string
     figlet_string = figlet_format(time_string, font=font_name)
 
     # Replace any characters
     for char in custom_char_replace:
         figlet_string = figlet_string.replace(char, custom_char_replace[char])
+
+    # Apply padding
+    # Top padding
+    for i in padding[0]:
+        print()
+
+    # Right padding (useless until text alignment added)
+    # Bottom padding (pretty much useless as well)
+    # Left padding
+    for i in padding[3]:
+        figlet_string.replace('\n', '\n ')
 
     # Print the string
     print(figlet_string)
