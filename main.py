@@ -8,7 +8,7 @@ except ImportError:
     print('Error, module pyfiglet is required. Run: sudo pip3 install pyfiglet')
 
 # VARIABLES
-padding             = [0, 0, 0, 0]
+padding             = [1, 0, 0, 3]
 font_name           = '3x5'
 custom_char_replace = {'#': '\u2588'}
 time_format         = '%H:%M:%S'
