@@ -31,6 +31,4 @@ The variables at the start of the script can all be changed to modify the look a
 
 ## Planned Features
 
-- Font customisation (figlet).
 - Colour customisation.
-- Padding & general tidiness.
